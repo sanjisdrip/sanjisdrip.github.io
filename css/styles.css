@@ -699,6 +699,10 @@ header{
     grid-template-columns: 1fr;
 }
 
+.course{
+   width:237px;
+}
+
 
 
 /*testimonials*/
