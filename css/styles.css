@@ -1457,7 +1457,7 @@ header{
 }
 
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 600px){
 
    .about-header{
       height:650px;
