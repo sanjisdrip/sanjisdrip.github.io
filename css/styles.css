@@ -88,6 +88,7 @@
 
  a{
     color:var(--color-white);
+    text-decoration: none;
  }
  img{
     width: 100%;
@@ -100,7 +101,7 @@
     color: var(--color-black);
     padding:1rem 2rem;
     border: 1px solid transparent;
-    font-family: 500;
+    
     transition: var(--transition);
     border-radius: 35px;
  }
@@ -213,6 +214,7 @@ header{
 .categories h1{
     color:#bdaaaa;
     line-height: 1;
+    
     margin-bottom: 3rem;
 }
 .categories__container{
@@ -224,6 +226,8 @@ grid-template-columns: 40% 60%;
 .categories__left p{
     margin: 1rem 0 3rem;
     color:#bdaaaa;
+    /*Particular addition*/
+    
 }
 
 .categories__right{
@@ -278,13 +282,16 @@ grid-template-columns: 40% 60%;
     background-color: #d7d6d6;
     padding:0.7rem;
     border-radius: 0.9rem;
+    
 }
 
 .category h5{
     margin: 2rem 0 1rem;
+    
 }
 .category p{
-    font-size: 0.85rem;
+    
+    color:#000;
     
 }
 
@@ -295,6 +302,8 @@ grid-template-columns: 40% 60%;
     margin-top: 0rem;
     background-color: var(--color-bg2);
 }
+
+
 .courses__container{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -323,9 +332,12 @@ grid-template-columns: 40% 60%;
     padding: 2rem;
 }
 
+
+
 .course__info p{
     margin: 1.2rem 0 2rem;
-    font-size: 0.9rem;
+   
+
 }
 
 
@@ -339,6 +351,7 @@ grid-template-columns: 40% 60%;
 
 .faqs h2{
     text-shadow: 0 0 5px #000; 
+    
 }
 
 .faqs__container{
@@ -358,7 +371,7 @@ grid-template-columns: 40% 60%;
 }
 
 .faq h4{
-    font-size: 1rem;
+
     line-height: 2.2;
 
 }
@@ -370,6 +383,7 @@ grid-template-columns: 40% 60%;
 
 .faq p{
     margin-top: 0.8rem;
+    
     display:none;
 }
 
@@ -408,13 +422,16 @@ grid-template-columns: 40% 60%;
 .testimonial__info{
     text-align: center;
 }
+
+
 .testimonial__body{
     background: var(--color-primary);
     padding: 2rem;
     margin-top: 3rem;
     position:relative;
-    height:250px;
+    height:300px;
 }
+
 
 .testimonial__body::before{
     content: "";
@@ -441,7 +458,8 @@ grid-template-columns: 40% 60%;
     background: var(--color-bg2);
 }
 .kcse h2{
-    text-shadow: 0 0 5px #000; 
+    text-shadow: 0 0 5px #000;
+   
 }
 
 
@@ -635,7 +653,12 @@ header{
  }
  
 /*mobile media query*/
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 641px){
+
+   
+
     .container{
         width: var(--container-width-sm);
     }
@@ -645,8 +668,8 @@ header{
         right: 3%;
     }
     /*header*/
-    header{
-        height: 100vh;
+   header{
+        height: 400vh;
     }
     .header__container{
         grid-template-columns: 1fr;
@@ -657,7 +680,6 @@ header{
         margin-bottom: 1.3rem;
     }
 
-    /*categories*/
 
 .categories__right{
     grid-template-columns: 1fr 1fr;
@@ -676,10 +698,16 @@ header{
     grid-template-columns: 1fr;
 }
 
+
+
 /*testimonials*/
 .testimonial__body{
     padding: 1.2rem;
 }
+
+
+/*kcse*/
+
 
 /*footer*/
 .footer__container{
@@ -695,4 +723,91 @@ header{
     justify-content: center;
 }
     
+}
+
+
+@media screen and (max-width: 320px){
+
+     /*adding the responsiveness*/
+   .btn{
+    font-weight: 600;
+    font-size: 23px;
+   }
+
+    
+    /*categories*/
+.categories h1{
+    font-size: 45px;
+}
+.categories__left p{
+    font-size: 28px;
+}
+
+.category__icon{
+
+    font-size: 20px;
+
+}
+.category h5{
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.category p{
+    font-size: 24px;
+}
+
+/*courses*/
+
+    .courses h2{
+        font-size: 45px;
+    }
+    
+    .course__info h4{
+        font-size: 30px;
+    }
+    
+    
+    .course__info p{
+        font-size: 20px;
+    }
+    
+
+/*faqs*/
+
+.faqs h2{
+    font-size: 45px;
+}
+
+.faq h4{
+    font-size: 24px;
+}
+.faq p{
+    font-size: 22px;
+}
+
+
+
+    .testimonials__Container h2{
+        font-size: 46px;
+    }
+    
+    
+    .testimonial__info h5{
+        font-size: 28px;
+    }
+    .testimonial__info small{
+        font-size: 22px;
+    }
+    
+    .testimonial__body p{
+        font-size: 20px;
+     }
+    
+
+
+
+    .kcse h2{
+        font-size: 46px !important; 
+    }
 }
