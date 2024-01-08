@@ -726,7 +726,7 @@ header{
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
 
      /*adding the responsiveness*/
    .btn{
