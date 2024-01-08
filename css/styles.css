@@ -1,4 +1,4 @@
- *{
+*{
    margin: 0;
    padding: 0;
    border:0;
@@ -315,7 +315,7 @@ grid-template-columns: 40% 60%;
 }*/
 
 .course{
-    width:250px;
+    /*width:250px;*/
     background: var(--color-primary);
     text-align: center;
     border:1px solid transparent;
@@ -700,7 +700,7 @@ header{
 }
 
 .course{
-   width:237px;
+   width:334px;
 }
 
 
