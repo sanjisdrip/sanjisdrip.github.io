@@ -324,7 +324,7 @@ grid-template-columns: 40% 60%;
     /* top-right, bottom-right, top-left, bottom-left */
 }
 .course:hover{
-    /*background: transparent;*/
+    background: transparent;
     border-color: var(--color-primary);
     transform: scale(1.04);
 }
