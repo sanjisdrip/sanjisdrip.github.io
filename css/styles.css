@@ -149,6 +149,7 @@
  }
 
  .nav__menu{
+    height: 70%;
     display:flex;
     align-items: center;
     gap:4rem;
