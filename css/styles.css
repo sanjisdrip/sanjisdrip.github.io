@@ -468,7 +468,7 @@ grid-template-columns: 40% 60%;
 
 
 footer{
-    background: var(--color-primary);
+    background: #129061;
     padding-top: 5rem;
     font-size: 0.9rem;
 
@@ -549,14 +549,14 @@ footer{
     /*.right:5%;*/
      right:0;
     height:fit-content;
-    width: 45rem;
+    
     flex-direction: column;
     gap:0;
     display: none;
   }
   .nav__menu li{
     width:100%;
-    height:10rem;
+    height:7rem;
     animation: animateNavItems 400ms linear forwards;
     transform-origin: top right;
     opacity:0;
@@ -674,9 +674,21 @@ header{
     }
 
     /*navbar*/
-    .nav__menu{
-        right: 3%;
+    nav h4{
+       font-size:23px;
+       font-weight:bold;
     }
+   
+    .nav__menu{
+        right: 0;
+       width: 45rem;
+       
+       
+    }
+
+   .nav__menu li{
+      height:10rem;
+   }
     /*header*/
    header{
         height: 400vh;
