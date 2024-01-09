@@ -613,6 +613,10 @@ header{
     gap: 0;
     padding-bottom: 3rem;
 }
+    .about-header h1{
+       padding-top: 14rem;
+       font-size:4rem;
+    }
 
 /*categories*/
 .categories{
