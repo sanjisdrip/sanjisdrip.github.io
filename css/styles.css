@@ -88,7 +88,7 @@
 
  a{
     color:var(--color-white);
-    /*text-decoration: none;*/
+    text-decoration: none;
  }
  img{
     width: 100%;
@@ -545,10 +545,8 @@ footer{
     position: fixed;
     top:5rem;
     right:5%;
-    /*height:fit-content;*/
-    height:55vh;
-    /*width: 18rem;*/
-     width:68px;
+    height:fit-content;
+    width: 25rem;
     flex-direction: column;
     gap:0;
     display: none;
