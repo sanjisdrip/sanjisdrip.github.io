@@ -149,8 +149,12 @@
  }
 
  .nav__menu{
-    height: 100px;
+    height: 55vh;
+    width: 67%;
+    
     display:flex;
+
+    flex-direction: column;
     align-items: center;
     gap:4rem;
  }
