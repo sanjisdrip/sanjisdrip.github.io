@@ -419,7 +419,7 @@ grid-template-columns: 40% 60%;
 .testimonials__Container h2{
    color: #129061;
    font-weight:bold;
-    text-shadow: 0 0 5px #000; 
+    /*text-shadow: 0 0 5px #000;*/ 
 }
 
 .testimonial{
@@ -449,11 +449,17 @@ grid-template-columns: 40% 60%;
 
 
 .testimonial__body{
-    background: var(--color-primary);
+    background: #129061;
     padding: 2rem;
     margin-top: 3rem;
     position:relative;
-    height:450px;
+    /*height:450px;*/
+   height: 40vh;
+}
+
+
+.testimonial__body p{
+   color:white;
 }
 
 
