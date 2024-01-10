@@ -327,7 +327,7 @@ grid-template-columns: 40% 60%;
 
 .course{
     /*width:350px;*/
-    background: var(--color-primary);
+    background: #129061;
     text-align: center;
     border:1px solid transparent;
     transition: var(--transition);
@@ -380,7 +380,7 @@ grid-template-columns: 40% 60%;
     align-items: center;
     gap: 1.4rem;
     height: fit-content;
-    background: var(--color-primary);
+    background: #129061;
     cursor:pointer;
 }
 
@@ -453,8 +453,8 @@ grid-template-columns: 40% 60%;
     padding: 2rem;
     margin-top: 3rem;
     position:relative;
-    /*height:450px;*/
-   height: 36vh;
+    height:450px;
+   /*height: 36vh;*/
 }
 
 
@@ -467,9 +467,9 @@ grid-template-columns: 40% 60%;
     content: "";
     display: block;
     background: linear-gradient(135deg,transparent,
-    var(--color-primary),
-    var(--color-primary),
-    var(--color-primary));
+    #129061,
+    #129061,
+    #129061);
     width: 3rem;
     height: 3rem;
     position: absolute;
