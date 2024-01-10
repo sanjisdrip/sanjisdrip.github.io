@@ -785,21 +785,21 @@ header{
     
 }
 
-
+/*
 @media screen and (max-width: 1024px){
 
    .about-header{
       height:650px;
    }
      /*adding the responsiveness*/
-   .btn{
+  /* .btn{
     font-weight: 600;
     font-size: 23px;
    }
 
     
     /*categories*/
-.categories h1{
+/*.categories h1{
     font-size: 45px;
 }
 .categories__left p{
@@ -821,7 +821,7 @@ header{
 }
 
 /*courses*/
-
+/*
     .courses h2{
         font-size: 45px;
     }
@@ -838,7 +838,7 @@ header{
 
 /*faqs*/
 
-.faqs h2{
+/*.faqs h2{
     font-size: 45px;
 }
 
@@ -876,3 +876,4 @@ header{
 }
    
    
+*/
