@@ -1,5 +1,5 @@
 .about__achievements{
-    margin-top: 3rem;
+    margin-top: 2.5rem;
    /* box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);*/
     
 }
@@ -9,6 +9,18 @@
     grid-template-columns: 40% 60%;
     gap: 5rem;
 
+}
+
+.about__achievements-right h1{
+color:#129061;
+font-weight:bold;
+}
+
+.about__achievements-right h5{
+    color:#129061;
+}
+.about__achievements-right p{
+  color: #129061;
 }
 
 .about__achievements-right > p{
