@@ -385,7 +385,7 @@ grid-template-columns: 40% 60%;
 }
 
 .faq h4{
-    color:black;
+    color:#032B56;
     line-height: 2.2;
    
 
@@ -393,6 +393,7 @@ grid-template-columns: 40% 60%;
 
 .faq__icon{
     align-self: flex-start;
+   color:#032B56;
     font-size: 1.2rem;
 }
 
