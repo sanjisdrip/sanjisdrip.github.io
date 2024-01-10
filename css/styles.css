@@ -507,9 +507,7 @@ footer{
    color:#01BD2F;
    font-weight:bold;
 }
-.footer p{
-   font-weight:bold;
-}
+
 
 .footer__container{
     display:grid;
