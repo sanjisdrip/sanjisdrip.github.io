@@ -1,6 +1,7 @@
 .contact__container{
     box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
-    background: rgb(150, 162, 150);
+    /*background: rgb(150, 162, 150);*/
+    background: #129061;
     padding: 4rem;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -21,7 +22,7 @@
 }
 
 .aside__image{
-    width: 12rem;
+    width: 100%;
     margin-bottom: 2rem;
 }
 
