@@ -51,7 +51,7 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);
-    background-color:#47794e;
+    background-color:#DDE8F5;
     /*background-color: var(--color-bg);*/
  }
 
@@ -123,7 +123,7 @@
 
  nav{
     /*background:transparent;*/ 
-    background:rgb(25, 57, 25);
+    background:#129061;
     width:100vw;
     /*height:5rem;*/
     height:6.7rem;
@@ -133,7 +133,7 @@
  }
 
  .window-scroll{
-    background: var(--color-primary);
+    /*background: var(--color-primary);*/
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
  }
 
@@ -150,6 +150,7 @@
  }
 
  .nav__menu{
+    height:fit-content;
     display:flex;
     align-items: center;
     gap:4rem;
@@ -157,6 +158,7 @@
 
 
  .nav__menu a{
+   color:white;
    font-size: 18px;
    transition: all 400ms ease;
  }
@@ -213,9 +215,9 @@ header{
     /*height:32rem;*/
 }
 .categories h1{
-    color:#bdaaaa;
+    color:#DDE8F5;
     line-height: 1;
-    
+    font-weight:bold;
     margin-bottom: 3rem;
 }
 .categories__container{
@@ -226,7 +228,7 @@ grid-template-columns: 40% 60%;
 
 .categories__left p{
     margin: 1rem 0 3rem;
-    color:#bdaaaa;
+    color:#DDE8F5;
     /*Particular addition*/
     
 }
@@ -255,32 +257,32 @@ grid-template-columns: 40% 60%;
 }
 
 .category:nth-child(2) .category__icon{
-    background: #d7d6d6;
+    background: #69B37B;
 }
 .category:nth-child(3) .category__icon{
-    background: #d7d6d6;
+    background: #69B37B;
 }
 
 
 .category:nth-child(4) .category__icon{
-    background: #d7d6d6;
+    background: #69B37B;
 }
 
 
 .category:nth-child(5) .category__icon{
-    background: #d7d6d6;
+    background: #69B37B;
 }
 
 
 .category:nth-child(6) .category__icon{
-    background: #d7d6d6;
+    background: #69B37B;
 }
 
 
 
 
 .category__icon{
-    background-color: #d7d6d6;
+    background-color: #69B37B;
     padding:0.7rem;
     border-radius: 0.9rem;
     
@@ -288,11 +290,12 @@ grid-template-columns: 40% 60%;
 
 .category h5{
     margin: 2rem 0 1rem;
+   font-weight:bold;
     
 }
 .category p{
     
-    color:#000;
+    color:#032B56;
     
 }
 
@@ -302,6 +305,11 @@ grid-template-columns: 40% 60%;
     /*this margin top adjusts the sizes between the sections*/
     margin-top: 0rem;
     background-color: var(--color-bg2);
+}
+
+.courses h2{
+   color:#129061;
+   font-weight:bold;
 }
 
 
@@ -347,12 +355,14 @@ grid-template-columns: 40% 60%;
 
 .faqs{
     margin-top: 0rem;
-    background: var(--color-bg1);
-    box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
+    background: #61CE70;
+    /*box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);*/
 }
 
 .faqs h2{
     text-shadow: 0 0 5px #000; 
+   font-weight:bold;
+   color: white;
     
 }
 
@@ -457,11 +467,11 @@ grid-template-columns: 40% 60%;
 
 .kcse{
     box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
-    background: var(--color-bg2);
+    background: #129061;
 }
 .kcse h2{
     text-shadow: 0 0 5px #000;
-   
+    font-weight: bold;
 }
 
 
