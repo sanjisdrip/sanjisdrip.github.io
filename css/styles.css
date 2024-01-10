@@ -718,13 +718,13 @@ header{
    
     .nav__menu{
         right: 0;
-       width: 45rem;
+       /*width: 45rem;*/
        
        
     }
 
    .nav__menu li{
-      height:10rem;
+      /*height:10rem;*/
    }
     /*header*/
    header{
