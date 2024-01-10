@@ -415,6 +415,8 @@ grid-template-columns: 40% 60%;
     margin-bottom: 5rem;
 }
 .testimonials__Container h2{
+   color: #129061;
+   font-weight:bold;
     text-shadow: 0 0 5px #000; 
 }
 
@@ -433,6 +435,14 @@ grid-template-columns: 40% 60%;
 
 .testimonial__info{
     text-align: center;
+}
+
+.testimonial__info h5{
+   color:#129061;
+   font-weight:bold;
+}
+.testimonial__info small{
+   color:#129061;
 }
 
 
@@ -484,6 +494,11 @@ footer{
 
 }
 
+.footer h4{
+   color:#01BD2F;
+   font-weight:bold;
+}
+
 .footer__container{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -496,12 +511,16 @@ footer{
 .footer__1 p{
     margin: 0 0 2rem;
 }
+.footer__4 p:hover,
+.footer__4 p a:hover{
+   color:#01BD2F;
+}
  footer ul li{
     margin-bottom: 0.7rem;
  }
 
  footer ul li a:hover{
-    text-decoration: underline;
+    color:#01BD2F;
  }
 
  .footer__socials{
