@@ -432,7 +432,7 @@ grid-template-columns: 40% 60%;
     border-radius: 50%;
     overflow: hidden;
     margin:0 auto 1rem;
-    border: 1rem solid var(--color-bg1);
+    border: 1rem solid #129061;
 }
 
 .testimonial__info{
