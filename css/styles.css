@@ -590,7 +590,7 @@ footer{
     /*.right:5%;*/
      right:0;
     height:fit-content;
-    width: 58vw ;
+    width: 45vw ;
     flex-direction: column;
     gap:0;
     display: none;
