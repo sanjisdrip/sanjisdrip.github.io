@@ -15,7 +15,7 @@ body{
 }
 
 .quality3 .about__achievements-right h1{
-color:#129061;
+color:E6EAFF;
 font-weight:bold;
 }
 
@@ -23,11 +23,33 @@ font-weight:bold;
     color:#000;
 }
 .quality3 .about__achievements-right p{
-  color: #032B56;
+  color: #E6EAFF;
 }
 
 .about__achievements-right > p{
  margin: 1.6rem 0 2.5rem;
+}
+
+.quality .about__achievemnets-right h1{
+    color:#129061;
+}
+
+.quality .about__achievemnets-right h5{
+    color:#000;
+}
+
+.quality .about__achievemnets-right p{
+    color:#032B56;
+}
+
+.quality2 .about__achievemnets-right h1{
+    color:#129061;
+}
+.quality2 .about__achievemnets-right h5{
+    color:#000;
+}
+.quality2 .about__achievemnets-right p{
+    color:#032B56;
 }
 
 .achievements__cards{
