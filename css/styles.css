@@ -177,6 +177,10 @@ header{
     /*margin-bottom: 5rem;*/
 }
 
+.about-header{
+   height:77vh;
+}
+
 .header__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
