@@ -173,8 +173,8 @@ header{
     position:relative;
     top:6.7rem;
     overflow:hidden;
-    height:70vh;
-    margin-bottom: 5rem;
+    /*height:70vh;*/
+    /*margin-bottom: 5rem;*/
 }
 
 .header__container{
