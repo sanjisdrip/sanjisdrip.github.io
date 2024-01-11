@@ -590,7 +590,7 @@ footer{
     /*.right:5%;*/
      right:0;
     height:fit-content;
-    width: 25rem;
+    width: 58vw ;
     flex-direction: column;
     gap:0;
     display: none;
@@ -718,14 +718,14 @@ header{
    
     .nav__menu{
         right: 0;
-       width:60vw;
+       width:91vw;
        /*width: 45rem;*/
        
        
     }
 
    .nav__menu li{
-      height:6.3vh;
+      height:12vh;
       /*height:10rem;*/
    }
     /*header*/
