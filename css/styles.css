@@ -574,6 +574,10 @@ footer{
         font-size: 1.2rem;
     }
 
+    .about-header h1{
+       padding-top: 22vh;
+    }
+
 
     /*navbar*/
   nav button{
