@@ -89,6 +89,49 @@ textarea{
 }
 
 
+
+
+
+/*subscribe*/
+.subscribe{
+    padding:10em 0;
+    margin: 0 auto;
+ }
+
+ .subscribe-content{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2em;
+ }
+
+ .subscribe-content h2{
+    color: goldenrod;
+    font-size: 2.65rem;
+    font-weight: 800;
+ }
+
+ .subscribe-content p a{
+    color: var(--cl--1--);
+    text-decoration: underline;
+ }
+
+ @media screen and (min-width:577px) {
+    .desktop-hide{
+       display: none;
+    }
+}
+
+ 
+
+/*subscribe ends*/
+
+
+
+
+
+
 /*media tablets*/
 @media screen and (max-width: 1024px){
     .contact{
